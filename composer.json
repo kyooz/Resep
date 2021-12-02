@@ -1,0 +1,13 @@
+{
+    "name": "kyooz/resep",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [{
+        "name": "kyooz",
+        "email": "miftahfaiz84@gmail.com"
+    }],
+    "require": {}
+}
