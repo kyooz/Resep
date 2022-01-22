@@ -17,7 +17,6 @@ class DashboardCategoryController extends Controller
     {
         return view('dashboard.categories.index', [
             "title" => "Kategori",
-            // "recipes" => Recipe::all()
             'categories' => Category::all()
         ]);
     }

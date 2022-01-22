@@ -8,7 +8,6 @@
     <div class="card mt-5">
         <div class="row">
             <div class="col-lg-4">
-                {{-- <img src="https://source.unsplash.com/300x300?random" class="img-fluid" alt="random"> --}}
                 <img src="{{ asset('storage/' . $article->image) }}" width="500" height="300" class="img-fluid" alt="random">
             </div>
             <div class="col-lg-8">

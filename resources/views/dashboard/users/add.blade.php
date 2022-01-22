@@ -24,7 +24,7 @@
         <div class=" mb-3">
             <label for="email" class="form-label">Email</label>
             <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email"
-                placeholder="name@example.com" value="{{ old('email') }}">
+                placeholder="name@gmail.com" value="{{ old('email') }}">
             @error('title')
             <div class="invalid-feedback">
                 {{ $message }}

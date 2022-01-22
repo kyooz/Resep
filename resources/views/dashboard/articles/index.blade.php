@@ -10,16 +10,15 @@
 @endif
 
 <div class="table-responsive col-lg-12">
-    {{-- <a href="/dashboard/articles/create" class="btn btn-primary mb-3">Create new article</a> --}}
     
     {{-- <div class="search-element">
         <input class="form-control" type="search" placeholder="Search" aria-label="Search" data-width="250">
         <button class="btn" type="submit"><i class="fas fa-search"></i></button>
     </div> --}}
-    <div class="input-group mb-3 col-md-4">
+    {{-- <div class="input-group mb-3 col-md-4">
         <input type="search" class="form-control" placeholder="Search" aria-label="Search" data-width="250">
         <button class="btn" type="submit"><i class="fas fa-search"></i></button>
-      </div>
+      </div> --}}
 
       @can('admin')
       <table class="table table-striped table-sm">

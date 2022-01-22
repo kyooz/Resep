@@ -27,7 +27,6 @@
         <div class=" mb-3">
             <label for="category" class="form-label">Category</label>
             <select class="custom-select" name="category_id">
-                {{-- <option selected>Open this select menu</option> --}}
                 @foreach ($categories as $category)
                 @if (old('category_id') == $category->id)
                 <option value="{{ $category->id }}" selected>{{ $category->name }}</option>
@@ -71,9 +70,9 @@
     });
 
     // disable upload image trix
-    // document.addEventListener('trix-file-accept', function(e) {
-    //     e.preventDefault();
-    // })
+    document.addEventListener('trix-file-accept', function(e) {
+        e.preventDefault();
+    })
 
     function previewImage() {
         const image = document.querySelector('#image');

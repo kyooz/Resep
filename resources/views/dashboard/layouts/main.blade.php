@@ -21,11 +21,11 @@
   <script type="text/javascript" src="/js/trix.js"></script>
 
   {{-- disable upload image trix --}}
-  {{-- <style>
+  <style>
     trix-toolbar [data-trix-button-group="file-tools"] {
       display:none;
     }
-  </style> --}}
+  </style>
 
 </head>
 

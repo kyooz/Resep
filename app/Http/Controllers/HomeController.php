@@ -11,7 +11,6 @@ class HomeController extends Controller
     {
         return view('home', [
             "title" => "home",
-            // "recipes" => Recipe::all()
             "recipes" => Recipe::latest()->filter(request(['search']))->paginate(12)->withQueryString()
         ]);
     }

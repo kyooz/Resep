@@ -22,8 +22,6 @@ class DashboardController extends Controller
 
         return view('dashboard.dashboard', $data, [
             'title' => 'Dashboard',
-            // 'recipes' => $user->recipes,
-            // 'articles' => $user->articles,
         ]);
     }
 }

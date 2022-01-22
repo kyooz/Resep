@@ -30,7 +30,6 @@ class DashboardUserController extends Controller
     {
         return view('dashboard.users.add', [
             'title' => 'Add User',
-            // 'role' => Role::all()
         ]);
     }
 

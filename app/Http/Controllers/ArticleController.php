@@ -11,7 +11,6 @@ class ArticleController extends Controller
     {
         return view('articles', [
             "title" => "Artikel",
-            // "articles" => Article::latest()->filter(request(['search']))->paginate(12)->withQueryString()
             "articles" => Article::latest()->get()
         ]);
     }

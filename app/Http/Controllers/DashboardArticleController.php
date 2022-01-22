@@ -33,7 +33,6 @@ class DashboardArticleController extends Controller
     {
         return view('dashboard.articles.create', [
             "title" => "Tambah Artikel",
-            // "categories" => Category::all()
         ]);
     }
 
@@ -90,7 +89,6 @@ class DashboardArticleController extends Controller
         return view('dashboard.articles.edit', [
             "title" => "Edit Artikel",
             "article" => $article,
-            // "categories" => Category::all()
         ]);
     }
 

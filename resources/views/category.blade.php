@@ -2,17 +2,6 @@
 
 @section('container')
     <h1 class="mt-5 mb-5">Post Category : {{ $category }}</h1>
-
-    {{-- @foreach ($recipes as $recipe)
-        <article>
-            <h2>
-                <a href="recipe/{{ $recipe->slug }}">{{ $recipe->title }}</a>
-            </h2>
-            <h5>{{ $recipe->author }}</h5>
-            <p>{{ $recipe->body }}</p>
-        </article>
-    @endforeach --}}
-
     
 @if ($recipes->count())
 <div class="container">
@@ -32,7 +21,6 @@
 
                 <div class="card-body">
                   <h5 class="card-title">{{ $recipe->title }}</h5>
-                  {{-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> --}}
                   <a href="/recipe/{{ $recipe->slug }}" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
