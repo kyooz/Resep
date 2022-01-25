@@ -21,7 +21,7 @@
 
                 <div class="card-body">
                   <h5 class="card-title">{{ $recipe->title }}</h5>
-                  <a href="/recipe/{{ $recipe->slug }}" class="btn btn-primary">Go somewhere</a>
+                  <a href="/recipe/{{ $recipe->slug }}" class="btn btn-primary">Baca Resep</a>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@
             </div>
             <div class="card-wrap">
                 <div class="card-header">
-                    <h4>Total Admin</h4>
+                    <h4>Jumlah Admin</h4>
                 </div>
                 <div class="card-body">
                     {{ $userCount }}
@@ -26,7 +26,7 @@
             </div>
             <div class="card-wrap">
                 <div class="card-header">
-                    <h4>Resep</h4>
+                    <h4>Jumlah Resep</h4>
                 </div>
                 <div class="card-body">
                     {{ $recipeCount }}
@@ -41,7 +41,7 @@
             </div>
             <div class="card-wrap">
                 <div class="card-header">
-                    <h4>Artikel</h4>
+                    <h4>Jumlah Artikel</h4>
                 </div>
                 <div class="card-body">
                     {{ $articleCount }}
@@ -75,7 +75,7 @@
             </div>
             <div class="card-wrap">
                 <div class="card-header">
-                    <h4>Artikel</h4>
+                    <h4>Artikel Saya</h4>
                 </div>
                 <div class="card-body">
                     {{ $articles }}

@@ -6,7 +6,7 @@
             <div class="col-lg-8 ">
                 <article>
                     <a href="/dashboard/articles" class="btn bg-info mb-3">Kembali</a>
-                    <a href="/dashboard/articles" class="btn bg-warning mb-3">Edit</a>
+                    <a href="/dashboard/articles/{{ $article->slug }}/edit" class="btn bg-warning mb-3">Edit</a>
                     <form action="/dashboard/articles/{{ $article->slug }}" method="post" class="d-inline">
                         @method('delete')
                         @csrf
